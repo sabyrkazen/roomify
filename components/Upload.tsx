@@ -30,6 +30,8 @@ export const Upload = () => {
                 ? 'Click to upload or just drag and drop'
                 : 'Sign in or sign up with Puter to upload'}
             </p>
+
+            <p className="help">Maximum file size 50 MB.</p>
           </div>
         </div>
       ) : (
