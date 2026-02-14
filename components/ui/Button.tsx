@@ -7,13 +7,13 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 export const Button = ({
-                         variant = 'primary',
-                         size = 'md',
-                         fullWidth = false,
-                         className = '',
-                         children,
-                         ...props
-                       }: ButtonProps) => {
+  variant = 'primary',
+  size = 'md',
+  fullWidth = false,
+  className = '',
+  children,
+  ...props
+}: ButtonProps) => {
   const baseClass = 'btn'
   const variantClass = `btn--${variant}`
   const sizeClass = `btn--${size}`

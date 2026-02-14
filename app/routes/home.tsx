@@ -20,7 +20,7 @@ export default function Home() {
       <section className="hero">
         <div className="announce">
           <div className="dot">
-            <div className="pulse"></div>
+            <div className="pulse" />
           </div>
 
           <p>Introducing Roomify 2.0</p>
